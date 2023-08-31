@@ -170,34 +170,4 @@ padding: 0;
     color: #00a878;
 }
 
-
-
-/*destacados
-.grid_destacados {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 19px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "uno dos tre";
-  }
-
-  .uno{
-    grid-area: uno;
-    width: 50%;
-  }
-  .dos{
-    grid-area: dos;
-    width: 50%;
-  }
-  .tres{
-    grid-area: tres;
-    width: 50%;
-  } 
-  
-  .boton_enviar:hover{
-    background-color: #00a878;
-    color: #edfdef;
-}
-*/
   
