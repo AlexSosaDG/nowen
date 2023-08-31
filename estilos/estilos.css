@@ -140,6 +140,38 @@ padding: 0;
     padding: 8px;
     margin-top: 1000px;
 }
+.from_bc{
+    padding-top: 20px;
+    background-color: #edfdef;
+}
+.from_bc h2{
+    color: #1282A2;
+    text-align: center;
+}
+.formulario{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: small;
+    padding: 2em 0 2em 5em;
+    color: #1282A2;
+}
+
+.mensaje{
+    padding: 5px 0 0 10px;
+    border-radius: 10px;
+}
+
+.boton_enviar{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: small;
+    padding: 5px;
+    border-radius: 7px;
+    color: #00a878;
+}
+
+.boton_enviar:hover{
+    background-color: #00a878;
+    color: #edfdef;
+}
 
 
 /*destacados
