@@ -13,6 +13,41 @@ h2, h3, h4, h5, h6, p{
     font-family: 'Archivo Narrow', sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+footer{display: flex;
+    justify-content: space-around;
+    background-color:#1282A2;
+    padding: 1em;
+}
+
+.link_footer{
+    padding-left: 0!important;
+}
+.link_footer a{
+    font-family: 'Archivo Narrow', sans-serif;
+    text-decoration: none;
+    color: #edfdef;
+}
+
+#logo_footer{
+    height: 120px;
+
+}
+
+
+.links_redes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-top: 15px;
+}
+
+.links_redes li img{
+    height: 30px;
+}
+
 /* first mobile */
 
 .color_boton{
@@ -20,19 +55,28 @@ h2, h3, h4, h5, h6, p{
     text-align: end;
 }
 
+
+
 .botones-nav{
     width: 100% !important;
-    padding: 10px 15px;
+    padding: 0!important;
+    margin: 0!important;
 }
 
 .w-25{
     width: 40px!important;
+}
+.navbar-brand{
+    margin-right:0!important;
 }
 
 .centrado-boton{
     text-align: center;
 }
 
+.navbar{
+    padding: 5px 10px!important;
+}
 .nav-item{
     margin: auto;
 }
@@ -40,4 +84,84 @@ h2, h3, h4, h5, h6, p{
     padding: 10px;
 }
 
+/*texto principal*/
 
+.texto_principal{
+   padding: 20px;
+}
+.texto_principal h1, .texto_principal h2{
+    text-align: center;
+}
+.cuadro_principal{
+    display: block;
+    height: 400px;
+    margin: auto;
+    border-radius: 30px 30px 0 0;
+}
+
+.cuadros ul{
+    margin-top: 20px;
+}
+.cuadros ul li h3{
+    text-align: center;
+    margin: auto;
+}
+
+/*destacados*/
+.c_destacados{
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.c_destacados h2{
+    color: #1282A2;
+    padding-top: 10px;
+}
+
+.grid_destacados{
+margin: 0;
+padding: 0;
+}
+.uno, .dos, .tres{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.boton_u{
+    text-decoration: none;
+    background-color: #1282A2;
+    color: #edfdef;
+    border-radius: 10%;
+    padding: 8px;
+    margin-top: 1000px;
+}
+
+
+/*destacados
+.grid_destacados {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 19px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "uno dos tre";
+  }
+
+  .uno{
+    grid-area: uno;
+    width: 50%;
+  }
+  .dos{
+    grid-area: dos;
+    width: 50%;
+  }
+  .tres{
+    grid-area: tres;
+    width: 50%;
+  } */
+  
